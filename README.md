@@ -1,6 +1,6 @@
 # buildOpenCVUbuntu
 
-These scripts build OpenCV version 3.3 for Ubuntu 16.04
+These scripts build OpenCV version 3.3 for Ubuntu 16.04 and Python 3
 
 
 
@@ -38,6 +38,7 @@ https://devtalk.nvidia.com/default/topic/965134/opencv-3-1-compilation-on-tx1-le
 ## Release Notes
 November 2017
 * Ubuntu 16.04
+* Python 3
 * OpenCV 3.3
 * GStreamer support added to build script 
 
