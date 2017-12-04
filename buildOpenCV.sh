@@ -1,6 +1,5 @@
 #!/bin/bash
 # License: MIT. See license file in root directory
-# Copyright(c) JetsonHacks (2017)
 cd $HOME
 sudo apt-get install -y \
     libglew-dev \
@@ -49,7 +48,7 @@ cmake \
     -DBUILD_ZLIB=OFF \
     -DBUILD_EXAMPLES=ON \
     -DBUILD_opencv_java=OFF \
-    -DBUILD_opencv_python2=OFF \
+    -DBUILD_opencv_python2=ON \
     -DBUILD_opencv_python3=ON \
     -DWITH_OPENCL=OFF \
     -DWITH_OPENMP=OFF \
