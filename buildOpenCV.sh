@@ -19,7 +19,7 @@ sudo apt-get install -y \
     cmake \
     pkg-config
 
-# Python 2.7
+# Python 3.5
 sudo apt-get install -y python3-dev python3-numpy python3-py python3-pytest -y
 # GStreamer support
 sudo apt-get install -y libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev 
@@ -36,7 +36,7 @@ git checkout -b v3.3.0 3.3.0
 cd $HOME/opencv
 mkdir build
 cd build
-# Jetson TX2 
+# Ubuntu 16.04
 cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=/usr \
