@@ -19,6 +19,9 @@ sudo apt-get install -y \
     cmake \
     pkg-config
 
+# Python 2.7
+sudo apt-get install -y python-dev python-numpy python-py python-pytest -y
+
 # Python 3.5
 sudo apt-get install -y python3-dev python3-numpy python3-py python3-pytest -y
 # GStreamer support
@@ -69,5 +72,5 @@ cmake \
     -DOPENCV_TEST_DATA_PATH=../opencv_extra/testdata \
     ../
 
-# Consider using all 6 cores; $ sudo nvpmodel -m 2 or $ sudo nvpmodel -m 0
+# Consider using all 6 cores, it depends on number of cores:
 make -j7
