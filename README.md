@@ -27,18 +27,11 @@ $ cd $HOME/opencv/build
 $ sudo make install
 
 
-## References
-
-Most of this information is derived from:
-
-http://docs.opencv.org/3.2.0/d6/d15/tutorial_building_tegra_cuda.html
-
-https://devtalk.nvidia.com/default/topic/965134/opencv-3-1-compilation-on-tx1-lets-collect-the-quot-definitive-quot-cmake-settings-/?offset=3
 
 ## Release Notes
 November 2017
 * Ubuntu 16.04
-* Python 3
+* Python 3 and 2.7
 * OpenCV 3.3
 * GStreamer support added to build script 
 
