@@ -1,6 +1,6 @@
 # buildOpenCVUbuntu
 
-These scripts build OpenCV version 3.3 for Ubuntu 16.04 and Python 3
+These scripts build OpenCV version 3.3 for Ubuntu 16.04 and Python 3, 2.7
 
 
 
